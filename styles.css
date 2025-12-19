@@ -1,0 +1,76 @@
+html {
+    cursor: url("cursor.png"), auto;
+}
+:hover {
+    cursor: url("cursor.png"), auto;
+}
+
+body {
+    background-image: url("background.avif");
+    font
+}
+
+.card {
+    background-color: rgb(222, 237, 255);
+    border: 8px solid rgb(178, 218, 255);
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+}
+.card:hover {
+    transition: all 0.5s ease 0s;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.card-title {
+    font-family: "ff-scala-jewel-crystal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-align: center;
+    color: rgb(2, 2, 82);
+}
+
+.card-text {
+    font-family: "houschka-rounded", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 130%;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid rgb(152, 205, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(189, 223, 255);
+    font-family: "houschka-rounded", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    transition: all 0.5s ease 0s;
+}
+.btn:hover {
+    background-color: rgb(189, 223, 255);
+    transition: all 0.5s ease 0s;
+    box-shadow:10px 10px 10px rgb(167, 216, 255);
+    animation: bounce 0.5s infinite;
+}
+
+.inputs {
+    font-family: "houschka-rounded", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 110%;
+}
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(-10px);
+    animation-timing-function: ease-out;
+  }
+}
