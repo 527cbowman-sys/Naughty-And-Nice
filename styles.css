@@ -7,7 +7,8 @@ html {
 
 body {
     background-image: url("background.avif");
-    font
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card {
